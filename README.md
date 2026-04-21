@@ -51,7 +51,8 @@ git clone https://github.com/SoyoRimX/LabDeviceSystem.git
 cd LabDeviceSystem
 请将 your-username 替换为你的 GitHub 用户名，如果仓库名不同也请一并修改。
 
-2. 导入数据库
+
+### 2. 导入数据库
 创建数据库（例如 lab_device_system）
 
 执行 db/lab_system.sql 脚本，初始化所有表及基础数据
@@ -60,7 +61,7 @@ bash
 mysql -u root -p < db/lab_system.sql
 若 SQL 文件中不包含创建数据库语句，请先手动创建数据库并切换到该库。
 
-3. 配置数据库连接
+### 3. 配置数据库连接
 打开项目中的数据库连接配置文件（通常位于 src/ 目录下的 DBConnection.cpp 或类似文件），修改以下参数：
 
 cpp
@@ -69,7 +70,7 @@ db.setPort(3306);
 db.setDatabaseName("lab_device_system");
 db.setUserName("your_username");
 db.setPassword("your_password");
-4. 使用 Qt Creator 编译运行
+### 4. 使用 Qt Creator 编译运行
 用 Qt Creator 打开项目根目录下的 .pro 工程文件
 
 选择正确的构建套件（Kit）
@@ -82,7 +83,7 @@ bash
 qmake
 make
 ./LabDeviceSystem
-5. 默认测试账号
+### 5. 默认测试账号
 角色	用户名	密码
 学生	student	123456
 设备管理员	lab_admin	admin123
