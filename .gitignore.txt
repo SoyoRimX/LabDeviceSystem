@@ -1,0 +1,35 @@
+# Qt 生成文件
+Makefile
+Makefile.*
+*.pro.user
+*.pro.user.*
+*.autosave
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+*.o
+*.obj
+
+# 构建目录
+build/
+build-*
+debug/
+release/
+bin/
+obj/
+
+# 数据库配置
+db_config.h
+config.h
+
+# 文档临时文件
+*.docx~
+*.pptx~
+*.tmp
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log
