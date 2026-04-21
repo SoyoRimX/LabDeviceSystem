@@ -1,0 +1,78 @@
+# 编译输出文件
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+
+# Qt 临时文件
+*.user
+*.user.*
+*.creator.user*
+*.stash
+Debug/
+Release/
+debug/
+release/
+build-*/
+*.build
+
+# 自动生成的 Makefile 文件
+Makefile
+Makefile.*
+
+# Qt Creator 生成的临时文件
+*.pro.user
+*.pro.user.*
+*.creator
+*.files
+*.includes
+*.config
+
+# 编译中间文件（moc、ui、qrc 生成）
+moc_*.cpp
+moc_*.h
+ui_*.h
+qrc_*.cpp
+
+# 备份文件
+*~
+*.bak
+*.swp
+*.tmp
+
+# 日志文件
+*.log
+
+# 数据库文件（如果本地有测试数据库文件）
+*.sqlite
+*.db
+
+# 用户配置文件（密码、本地路径等）
+config.ini
+*.conf
+*.cfg
+
+# 开发环境目录
+.vscode/
+.idea/
+
+# Windows 系统文件
+Thumbs.db
+desktop.ini
+
+# macOS 系统文件
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux 系统文件
+.directory
+
+# 项目文档中的生成文件（可选，避免提交 PDF/Word 临时文件）
+*.pdf
+*.docx
+~$*.docx
